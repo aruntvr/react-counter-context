@@ -1,5 +1,5 @@
 import {useContext} from 'react';
-import { counterStore } from '../stores/Counter';
+import counterStore from '../stores/Counter';
 import { COUNTER_INCREMENT, COUNTER_DECREMENT } from "../constants/Counter";
 
 function Counter(props) {

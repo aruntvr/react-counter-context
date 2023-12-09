@@ -1,4 +1,4 @@
-import { counterStore} from '../stores/Counter';
+import counterStore from '../stores/Counter';
 import {useContext} from 'react';
 
 function Header({headerName}) {
