@@ -6,6 +6,7 @@ services:
     container_name: react-context-container
     ports:
       - 5000:5000
+      - 5001:5001
     entrypoint:
       - 'npm'
     command: run dev
